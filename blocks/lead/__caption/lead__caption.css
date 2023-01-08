@@ -1,0 +1,13 @@
+.lead__caption {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin-left: 10%;
+    }
+}

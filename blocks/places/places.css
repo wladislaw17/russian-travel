@@ -1,0 +1,18 @@
+.places {
+    margin: 3vw 10%;
+}
+
+@media screen and (max-width: 1024px){
+    .places {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .places {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+

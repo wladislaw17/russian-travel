@@ -1,0 +1,9 @@
+.cover__overlay {
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 0.8;
+}
+
+.cover__container:hover .cover__overlay{
+    opacity: 0.3;
+}

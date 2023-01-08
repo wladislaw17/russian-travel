@@ -1,0 +1,17 @@
+.places__card {
+    display: grid;
+    grid-template-columns: calc((100% - 2vw)/2) calc((100% - 2vw)/2);
+    gap: 2vw;
+    margin-bottom: 2.5vw;
+}
+
+.places__card:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .places__card {
+        grid-template-columns: 100%;
+        margin-bottom: 5vw;
+    }
+}
