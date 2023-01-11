@@ -1,3 +1,7 @@
 .cover__container {
     display: grid;
 }
+
+.cover__container:hover .cover__background {
+    opacity: 0.3;
+}

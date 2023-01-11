@@ -1,5 +1,26 @@
 .header {
-    margin: 3vw 5vw;
+    margin: 28px 48px 56px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
 }

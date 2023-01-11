@@ -8,12 +8,8 @@
     .places__website {
         grid-row: 2/3;
         grid-column: 1/2;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .places__website {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-bottom: 32px;
+        max-width: 288px;
+        margin-left: 16px
     }
 }
