@@ -1,6 +1,6 @@
 .intro__text {
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: calc(26.08 / 16);

@@ -1,10 +1,15 @@
 .header__lang-link {
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: calc(28 / 24);
     text-decoration: none;
+    transition: opacity 0.3s linear;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 .header__lang-link:first-of-type {

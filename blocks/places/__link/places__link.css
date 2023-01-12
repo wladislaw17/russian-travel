@@ -1,11 +1,10 @@
 .places__link {
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: calc(22 / 18);
     transition: opacity 0.3s linear;
-    margin-top: 12px;
 }
 
 .places__link:hover {

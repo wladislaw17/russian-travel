@@ -1,6 +1,6 @@
 .intro__title {
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-size: 54px;
     font-weight: 900;
     line-height: calc(58 / 54);
